@@ -1,0 +1,2 @@
+# randomGo
+Go practice codes
