@@ -12,7 +12,7 @@ func main() {
 
 	go pingNow(ping, pong)
 	ping <- 1
-	time.Sleep(5 * time.Second)
+	select {}
 }
 
 func pingNow(ping chan int, pong chan int) {
